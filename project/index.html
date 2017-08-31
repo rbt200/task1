@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+  <meta charset="utf-8"/>
+  <link href='./style/style.css' type='text/css' rel="stylesheet" >
+  <script type="text/javascript" src="./modules/jquery.js"></script>
+  <script type="text/javascript" src='index.js'></script>
+</head>
+<body>
+  <form method='get' id='form' name='form' action='./server/server.js' accept-charset="utf-8" onsubmit="return false">
+    <p><label for="fio">FIO</label></p>
+    <p><input type="text" name="fio" id="fio" value='one two three'></p>
+    <p><label for="email">Email</label></p>
+    <p><input type="text" id="email" name="email" value='abc@ya.ru'></p>
+    <p><label for="phone">Phone</label></p>
+    <p><input type="text" id="phone" name="phone" value='+7(123)805-02-10'></p>
+    <p><input type="submit" value='Submit'></p>
+	</form>
+  <div id="resultContainer">
+    <p><label name="result" id="result"></label></p>
+  </div>
+</body>
+</html>

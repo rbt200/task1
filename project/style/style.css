@@ -1,0 +1,15 @@
+.initial {
+	border: initial initial initial;
+}
+
+.success {
+
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.progress {
+
+}
